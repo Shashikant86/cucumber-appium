@@ -1,0 +1,668 @@
+TPlainNote
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Info.plist PlainNote-Info.plist
+cCompileXIB /Users/user/cucumber-appium/PlainNote/MainWindow.xib
+cCompileXIB /Users/user/cucumber-appium/PlainNote/RootViewController.xib
+cCopyPlistFile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/NotesList.plist NotesList.plist
+cCompileXIB /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib
+cCpResource Icon.png build/Release-iphonesimulator/PlainNote.app/Icon.png
+cCpResource Settings.bundle build/Release-iphonesimulator/PlainNote.app/Settings.bundle
+cCompileXIB /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib
+cCpResource index.html build/Release-iphonesimulator/PlainNote.app/index.html
+cProcessPCH /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.pth PlainNote_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.o /Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.o /Users/user/cucumber-appium/PlainNote/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.o /Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.o /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.o /Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.o /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.o /Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote normal i386
+cGenerateDSYMFile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYM /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote
+cTouch /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000505780130000000000000110
+t1347911699
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000502F1EEB0000000000228F90
+t1345265387
+s2264976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000502F1F4500000000003DCEC0
+t1345265477
+s4050624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000502F1F3A00000000000015F7
+t1345265466
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000502F349600000000001144B0
+t1345270934
+s1131696
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000502F52180000000000000E8D
+t1345278488
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000502F526A0000000000AB3D30
+t1345278570
+s11222320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000502F20050000000000001B54
+t1345265669
+s6996
+
+N/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m
+c00000000523DB6250000000000002386
+t1379776037
+s9094
+
+N/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib
+c00000000523DB6250000000000005D56
+t1379776037
+s23894
+
+N/Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.m
+c00000000523DB625000000000000089E
+t1379776037
+s2206
+
+N/Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m
+c00000000523DB625000000000000087D
+t1379776037
+s2173
+
+N/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m
+c00000000523DB6250000000000001ABC
+t1379776037
+s6844
+
+N/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m
+c00000000523DB6250000000000000AC1
+t1379776037
+s2753
+
+N/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m
+c00000000523DB62500000000000036CF
+t1379776037
+s14031
+
+N/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m
+c00000000523DB6250000000000001E83
+t1379776037
+s7811
+
+N/Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m
+c00000000523DB6250000000000000369
+t1379776037
+s873
+
+N/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m
+c00000000523DB625000000000000276B
+t1379776037
+s10091
+
+N/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m
+c00000000523DB6250000000000000701
+t1379776037
+s1793
+
+N/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib
+c00000000523DB625000000000000443B
+t1379776037
+s17467
+
+N/Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.m
+c00000000523DB62500000000000007D3
+t1379776037
+s2003
+
+N/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m
+c00000000523DB6250000000000000EBC
+t1379776037
+s3772
+
+N/Users/user/cucumber-appium/PlainNote/Icon.png
+c00000000523DB6250000000000001902
+t1379776037
+s6402
+
+N/Users/user/cucumber-appium/PlainNote/MainWindow.xib
+c00000000523DB625000000000000736A
+t1379776037
+s29546
+
+N/Users/user/cucumber-appium/PlainNote/NotesList.plist
+c00000000523DB62500000000000002A1
+t1379776037
+s673
+
+N/Users/user/cucumber-appium/PlainNote/PlainNote_Prefix.pch
+c00000000523DB6250000000000000144
+t1379776037
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/user/cucumber-appium/PlainNote/RootViewController.xib
+c00000000523DB6250000000000004F82
+t1379776037
+s20354
+
+N/Users/user/cucumber-appium/PlainNote/Settings.bundle
+c00000000523DB6250000000000000088
+t1379776037
+s136
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNote.LinkFileList
+c00000000523DB63800000000000006F1
+t1379776056
+s1777
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.o
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYM
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/DetailNoteViewControler.nib
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Icon.png
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Info.plist
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/MainWindow.nib
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/NotesList.plist
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PkgInfo
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/RootViewController.nib
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Settings.bundle
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/WebViewController.nib
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/index.html
+t2
+s0
+
+N/Users/user/cucumber-appium/PlainNote/index.html
+c00000000523DB62500000000000007B8
+t1379776037
+s1976
+
+N/Users/user/cucumber-appium/PlainNote/main.m
+c00000000523DB6250000000000000164
+t1379776037
+s356
+
+N/var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.pth
+t2
+s0
+
+NPlainNote-Info.plist
+c00000000523DB6250000000000000374
+t1379776037
+s884
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies56f526b8ededb741^5ebc63b8ededb741^---0#1#0#--18"Check dependencies36"F67B9ABD-3A75-4E76-8C83-1DC661FB5D08-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.o /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.639128
+e401468861.844773
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.o
+x/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:55:3: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        [self dismissModalViewControllerAnimated:YES];
+o         ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:98:39: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated: first deprecated in iOS 3.2 [-Wdeprecated-declarations]
+o        NSValue* aValue = [info objectForKey:UIKeyboardBoundsUserInfoKey]; 
+o                                             ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:127:30: note: 'UIKeyboardBoundsUserInfoKey' declared here
+oUIKIT_EXTERN NSString *const UIKeyboardBoundsUserInfoKey        NS_DEPRECATED_IOS(2_0, 3_2);
+o                             ^
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:117:39: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated: first deprecated in iOS 3.2 [-Wdeprecated-declarations]
+o        NSValue* aValue = [info objectForKey:UIKeyboardBoundsUserInfoKey];
+o                                             ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:127:30: note: 'UIKeyboardBoundsUserInfoKey' declared here
+oUIKIT_EXTERN NSString *const UIKeyboardBoundsUserInfoKey        NS_DEPRECATED_IOS(2_0, 3_2);
+o                             ^
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:169:4: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o                [self presentModalViewController:picker animated:YES];
+o                 ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here
+o- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:230:3: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        [self dismissModalViewControllerAnimated:YES];
+o         ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:276:4: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o                [self dismissModalViewControllerAnimated:YES];
+o                 ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:301:4: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o                [self dismissModalViewControllerAnimated:YES];
+o                 ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o7 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m9fc8a3bdededb741^2b85d8bdededb741^-4507"/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:55:3: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [self dismissModalViewControllerAnimated:YES];         ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:98:39: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated: first deprecated in iOS 3.2 [-Wdeprecated-declarations]        NSValue* aValue = [info objectForKey:UIKeyboardBoundsUserInfoKey];                                              ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:127:30: note: 'UIKeyboardBoundsUserInfoKey' declared hereUIKIT_EXTERN NSString *const UIKeyboardBoundsUserInfoKey        NS_DEPRECATED_IOS(2_0, 3_2);                             ^/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:117:39: warning: 'UIKeyboardBoundsUserInfoKey' is deprecated: first deprecated in iOS 3.2 [-Wdeprecated-declarations]        NSValue* aValue = [info objectForKey:UIKeyboardBoundsUserInfoKey];                                             ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h:127:30: note: 'UIKeyboardBoundsUserInfoKey' declared hereUIKIT_EXTERN NSString *const UIKeyboardBoundsUserInfoKey        NS_DEPRECATED_IOS(2_0, 3_2);                             ^/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:169:4: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]                [self presentModalViewController:picker animated:YES];                 ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:230:3: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [self dismissModalViewControllerAnimated:YES];         ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:276:4: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]                [self dismissModalViewControllerAnimated:YES];                 ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m:301:4: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]                [self dismissModalViewControllerAnimated:YES];                 ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^7 warnings generated.7(36%IDEClangDiagnosticActivityLogMessage2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^54#2#54#2#1957#0#12"Deprecations--2@72"'UIKeyboardBoundsUserInfoKey' is deprecated: first deprecated in iOS 3.2-401468861#18446744073709551615#0#1(2@43"'UIKeyboardBoundsUserInfoKey' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@192"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h0000000000000000^126#29#126#29#6338#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^97#38#97#38#3059#0#12"Deprecations--2@72"'UIKeyboardBoundsUserInfoKey' is deprecated: first deprecated in iOS 3.2-401468861#18446744073709551615#0#1(2@43"'UIKeyboardBoundsUserInfoKey' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@192"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h0000000000000000^126#29#126#29#6338#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^116#38#116#38#3726#0#12"Deprecations--2@81"'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@59"Method 'presentModalViewController:animated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^236#0#236#0#12748#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^168#3#168#3#5083#0#12"Deprecations--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^229#2#229#2#6589#0#12"Deprecations--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^275#3#275#3#7783#0#12"Deprecations--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^300#3#300#3#8331#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@87"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m0000000000000000^3840"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.o Classes/DetailNoteViewControler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.dia -c /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/DetailNoteViewControler.o36"9D4A74B2-F252-40B7-85C3-EF9980AB442E-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.846121
+e401468861.900261
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.mbfd3d8bdededb741^1213e8bdededb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.m0000000000000000^3802"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.o Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.dia -c /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSObject+SBJSON.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSObject+SBJSON.o36"74BF0033-900F-481F-BEA0-326655427187-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.906950
+e401468861.953197
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m9df2e8bdededb741^cdb1f4bdededb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m0000000000000000^3802"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.o Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.dia -c /Users/user/cucumber-appium/PlainNote/Classes/JSON/NSString+SBJSON.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/NSString+SBJSON.o36"41A24141-709A-4634-9C1C-E54B61FDEE81-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.o /Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.455253
+e401468861.637386
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.o
+x/Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m78d474bdededb741^583aa3bdededb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m0000000000000000^3822"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.o Classes/PlainNoteAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.dia -c /Users/user/cucumber-appium/PlainNote/Classes/PlainNoteAppDelegate.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNoteAppDelegate.o36"732E5ECF-EFE1-409D-A34F-1FFDCE231812-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.o /Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.616975
+e401468861.843003
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.o
+x/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m:54:3: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        [self presentModalViewController:addNavCon animated:YES];
+o         ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here
+o- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m:102:13: warning: unused variable 'retStatus' [-Wunused-variable]
+o                NSInteger retStatus = [pnSync postNoteWithAccountID:account_id 
+o                          ^
+o/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m:229:3: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o        [self presentModalViewController:addNavCon animated:YES];
+o         ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here
+o- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m29239ebdededb741^cae1d7bdededb741^-1577"/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m:54:3: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [self presentModalViewController:addNavCon animated:YES];         ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m:102:13: warning: unused variable 'retStatus' [-Wunused-variable]                NSInteger retStatus = [pnSync postNoteWithAccountID:account_id                           ^/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m:229:3: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [self presentModalViewController:addNavCon animated:YES];         ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@81"'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@59"Method 'presentModalViewController:animated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^236#0#236#0#12748#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m0000000000000000^53#2#53#2#1862#0#12"Deprecations--2@27"Unused variable 'retStatus'-401468861#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m0000000000000000^101#12#101#12#3240#0#19"Unused Entity Issue--2@81"'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0-401468861#18446744073709551615#0#1(2@59"Method 'presentModalViewController:animated:' declared here-401468861#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@200"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^236#0#236#0#12748#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m0000000000000000^228#2#228#2#7079#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m0000000000000000^3810"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.o Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.dia -c /Users/user/cucumber-appium/PlainNote/Classes/RootViewController.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/RootViewController.o36"7556C5DA-02A0-427D-9213-CBE29AFE3FB3-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.909825
+e401468861.991962
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.o
+x/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m6d56e9bdededb741^9a05febdededb741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m0000000000000000^3748"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.o Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.dia -c /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJSON.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJSON.o36"00BE2D6C-07B9-48FD-A00E-8AAD4DCDFEB5-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.954919
+e401468862.018387
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.o
+x/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m94a3f4bdededb741^ebc504beededb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m0000000000000000^3772"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.o Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.dia -c /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonBase.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonBase.o36"738B8A95-0D06-4389-8120-5C2F6C973DD9-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.993307
+e401468862.155477
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.o
+x/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m4276febdededb741^8ecc27beededb741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m0000000000000000^3784"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.o Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.dia -c /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonParser.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonParser.o36"83B7E56F-69C6-44EF-A121-F4B2E80BE4CB-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.o /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468862.020193
+e401468862.115277
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m4b5a05beededb741^81931dbeededb741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m0000000000000000^3784"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.o Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.dia -c /Users/user/cucumber-appium/PlainNote/Classes/JSON/SBJsonWriter.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/SBJsonWriter.o36"97590D57-DBEA-45D2-B0B7-7809CF8787B9-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.o /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468862.116612
+e401468862.205516
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.o
+x/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m:37:20: warning: 'initWithContentsOfFile:' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o        NSString *html = [[NSString alloc] initWithContentsOfFile:htmlPath];
+o                          ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:354:1: note: method 'initWithContentsOfFile:' declared here
+o- (id)initWithContentsOfFile:(NSString *)path NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m4f071ebeededb741^feb534beededb741^-632"/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m:37:20: warning: 'initWithContentsOfFile:' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]        NSString *html = [[NSString alloc] initWithContentsOfFile:htmlPath];                          ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:354:1: note: method 'initWithContentsOfFile:' declared here- (id)initWithContentsOfFile:(NSString *)path NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@68"'initWithContentsOfFile:' is deprecated: first deprecated in iOS 2.0-401468862#18446744073709551615#0#1(2@46"Method 'initWithContentsOfFile:' declared here-401468862#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@197"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h0000000000000000^353#0#353#0#24225#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m0000000000000000^36#19#36#19#1035#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m0000000000000000^3804"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.o Classes/WebViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.dia -c /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/WebViewController.o36"ABB373CE-7347-4E93-B31F-3C4DCBC99116-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.o /Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.844631
+e401468861.894361
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.o
+x/Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.mac6fd8bdededb741^61dee7bdededb741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.m0000000000000000^3780"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.o Classes/instaPaperLib.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.dia -c /Users/user/cucumber-appium/PlainNote/Classes/instaPaperLib.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/instaPaperLib.o36"474F461E-F599-4C4E-AF71-F0F124823C71-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.o /Users/user/cucumber-appium/PlainNote/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468861.455645
+e401468861.615694
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.o
+x/Users/user/cucumber-appium/PlainNote/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Users/user/cucumber-appium/PlainNote/main.mc90375bdededb741^f7ae9dbdededb741^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Users/user/cucumber-appium/PlainNote/main.m0000000000000000^3710"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.dia -c /Users/user/cucumber-appium/PlainNote/main.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/main.o36"8CDF8A41-E34D-4A4F-B7C9-5C783EF809F7-
+
+CCompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.o /Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468862.157140
+e401468862.216155
+r1
+xCompileC
+xbuild/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.o
+x/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m:10:22: warning: extra tokens at end of #import directive [-Wextra-tokens]
+o#import "JSON/JSON.h";
+o                     ^
+o                     //
+o/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m:86:12: warning: unused variable 'result' [-Wunused-variable]
+o        NSString *result = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+o                  ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m806628beededb741^ec6d37beededb741^-474"/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m:10:22: warning: extra tokens at end of #import directive [-Wextra-tokens]#import "JSON/JSON.h";                     ^                     ///Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m:86:12: warning: unused variable 'result' [-Wunused-variable]        NSString *result = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];                  ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@40"Extra tokens at end of #import directive-401468862#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m0000000000000000^9#21#9#21#186#0#29"Lexical or Preprocessor Issue1(3@77"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m0000000000000000^9#21#9#21#186#0#-2@24"Unused variable 'result'-401468862#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m0000000000000000^85#11#85#11#3252#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m0000000000000000^3780"CompileC build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.o Classes/syncPlainNote.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -include /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch -MMD -MT dependencies -MF /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.d --serialize-diagnostics /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.dia -c /Users/user/cucumber-appium/PlainNote/Classes/syncPlainNote.m -o /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/syncPlainNote.o36"243F6C7D-6308-453C-8A96-2FCEB8649659-
+
+CCompileXIB /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib
+s401468858.171342
+e401468858.618247
+r1
+xCompileXIB
+x/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compiling /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib4cfa2bbaededb741^37529ebaededb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib0000000000000000^1200"CompileXIB Classes/DetailNoteViewControler.xib    cd /Users/user/cucumber-appium/PlainNote    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/DetailNoteViewControler.nib /Users/user/cucumber-appium/PlainNote/Classes/DetailNoteViewControler.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"0AFF7C62-B82B-4713-8FFB-893596716B7B-
+
+CCompileXIB /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib
+s401468858.219790
+e401468858.775834
+r1
+xCompileXIB
+x/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib2c6638baededb741^2ea9c6baededb741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib0000000000000000^1182"CompileXIB Classes/WebViewController.xib    cd /Users/user/cucumber-appium/PlainNote    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/WebViewController.nib /Users/user/cucumber-appium/PlainNote/Classes/WebViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"845180DF-0005-4D43-9426-F84B346C48E8-
+
+CCompileXIB /Users/user/cucumber-appium/PlainNote/MainWindow.xib
+s401468856.407097
+e401468858.168479
+r1
+xCompileXIB
+x/Users/user/cucumber-appium/PlainNote/MainWindow.xib
+o2013-09-21 16:07:37.400 Interface Builder Cocoa Touch Tool[703:f07] CFPreferences: user home directory at file://localhost/Users/user/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compiling /Users/user/cucumber-appium/PlainNote/MainWindow.xib846568b8ededb741^035d2bbaededb741^-235"2013-09-21 16:07:37.400 Interface Builder Cocoa Touch Tool[703:f07] CFPreferences: user home directory at file://localhost/Users/user/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/user/cucumber-appium/PlainNote/MainWindow.xib0000000000000000^1145"CompileXIB MainWindow.xib    cd /Users/user/cucumber-appium/PlainNote    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/MainWindow.nib /Users/user/cucumber-appium/PlainNote/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"552967AA-8843-4DAB-8AA9-54AC9DC2892F-
+
+CCompileXIB /Users/user/cucumber-appium/PlainNote/RootViewController.xib
+s401468856.407968
+e401468858.168777
+r1
+xCompileXIB
+x/Users/user/cucumber-appium/PlainNote/RootViewController.xib
+o2013-09-21 16:07:37.443 Interface Builder Cocoa Touch Tool[704:f07] CFPreferences: user home directory at file://localhost/Users/user/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/user/cucumber-appium/PlainNote/RootViewController.xib008f68b8ededb741^ca882bbaededb741^-235"2013-09-21 16:07:37.443 Interface Builder Cocoa Touch Tool[704:f07] CFPreferences: user home directory at file://localhost/Users/user/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/user/cucumber-appium/PlainNote/RootViewController.xib0000000000000000^1169"CompileXIB RootViewController.xib    cd /Users/user/cucumber-appium/PlainNote    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/RootViewController.nib /Users/user/cucumber-appium/PlainNote/RootViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"4E442F2E-3DE1-4B00-99AE-A8412D8AACFC-
+
+CCopyPlistFile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/NotesList.plist NotesList.plist
+s401468858.170415
+e401468858.197206
+r1
+xCopyPlistFile
+x/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/NotesList.plist
+xNotesList.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection20"Copy NotesList.plist2fc32bbaededb741^60c836baededb741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/user/cucumber-appium/PlainNote/NotesList.plist0000000000000000^765"CopyPlistFile build/Release-iphonesimulator/PlainNote.app/NotesList.plist NotesList.plist    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    builtin-copyPlist --convert binary1 --outdir /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app -- NotesList.plist36"CC1852C4-F5B4-48E4-90E0-1650330E320E-
+
+CCpResource Icon.png build/Release-iphonesimulator/PlainNote.app/Icon.png
+s401468858.199946
+e401468858.213765
+r1
+xCpResource
+xIcon.png
+xbuild/Release-iphonesimulator/PlainNote.app/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Release-iphonesimulator/PlainNote.app/Icon.png975233baededb741^73f236baededb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Icon.png000000000080d041^965"CpResource Icon.png build/Release-iphonesimulator/PlainNote.app/Icon.png    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/user/cucumber-appium/PlainNote/Icon.png /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app36"4CBB0510-5496-4DDC-ACEB-6E07F2903AC3-
+
+CCpResource Settings.bundle build/Release-iphonesimulator/PlainNote.app/Settings.bundle
+s401468858.214996
+e401468858.218516
+r1
+xCpResource
+xSettings.bundle
+xbuild/Release-iphonesimulator/PlainNote.app/Settings.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Release-iphonesimulator/PlainNote.app/Settings.bundlee52937baededb741^d3fa37baededb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Settings.bundle000000000080d041^986"CpResource Settings.bundle build/Release-iphonesimulator/PlainNote.app/Settings.bundle    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/user/cucumber-appium/PlainNote/Settings.bundle /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app36"C95BD295-FEA3-4223-AA61-A499D35242CC-
+
+CCpResource index.html build/Release-iphonesimulator/PlainNote.app/index.html
+s401468858.619872
+e401468858.622973
+r1
+xCpResource
+xindex.html
+xbuild/Release-iphonesimulator/PlainNote.app/index.html
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphonesimulator/PlainNote.app/index.html88d69ebaededb741^01889fbaededb741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/index.html000000000080d041^971"CpResource index.html build/Release-iphonesimulator/PlainNote.app/index.html    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/user/cucumber-appium/PlainNote/index.html /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app36"41363CFB-95AC-4B3A-A102-BCDE80D74A83-
+
+CGenerateDSYMFile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYM /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote
+s401468863.709534
+e401468863.773372
+r1
+xGenerateDSYMFile
+x/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYM
+x/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYMfcc4b5bfededb741^e7ffc5bfededb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYM000000000080d041^927"GenerateDSYMFile build/Release-iphonesimulator/PlainNote.app.dSYM build/Release-iphonesimulator/PlainNote.app/PlainNote    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote -o /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app.dSYM36"41A37CD4-4A35-4EAB-8909-A29682E18495-
+
+CLd /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote normal i386
+s401468862.223294
+e401468863.702467
+r1
+xLd
+x/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNotef44e39beededb741^d8d6b3bfededb741^---0#0#0#--1461"Ld build/Release-iphonesimulator/PlainNote.app/PlainNote normal i386    cd /Users/user/cucumber-appium/PlainNote    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator -filelist /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/Objects-normal/i386/PlainNote.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework MessageUI -o /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PlainNote36"7C98E251-03EF-4C2C-B7D4-07CDF7A7B6AF-
+
+CProcessInfoPlistFile /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Info.plist PlainNote-Info.plist
+s401468856.393401
+e401468856.398074
+r1
+xProcessInfoPlistFile
+x/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Info.plist
+xPlainNote-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process PlainNote-Info.plist6adf64b8ededb741^a5f765b8ededb741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/user/cucumber-appium/PlainNote/PlainNote-Info.plist0000000000000000^932"ProcessInfoPlistFile build/Release-iphonesimulator/PlainNote.app/Info.plist PlainNote-Info.plist    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    builtin-infoPlistUtility PlainNote-Info.plist -genpkginfo /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app/Info.plist36"15F17EB8-A07D-4D8C-8781-66F9F0A736F7-
+
+CProcessPCH /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.pth PlainNote_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401468858.788832
+e401468861.448013
+r1
+xProcessPCH
+x/var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.pth
+xPlainNote_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile PlainNote_Prefix.pch9e23cabaededb741^9baf72bdededb741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/user/cucumber-appium/PlainNote/PlainNote_Prefix.pch0000000000000000^3763"ProcessPCH /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.pth PlainNote_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/cucumber-appium/PlainNote    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-generated-files.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-own-target-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-all-target-headers.hmap -iquote /Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/PlainNote-project-headers.hmap -I/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources/i386 -I/Users/user/cucumber-appium/PlainNote/build/PlainNote.build/Release-iphonesimulator/PlainNote.build/DerivedSources -F/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator --serialize-diagnostics /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.dia -c /Users/user/cucumber-appium/PlainNote/PlainNote_Prefix.pch -o /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/ms/hhfyqk1s4hj6dlchp32jwtr00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PlainNote_Prefix-cflsrziwdsvcxyecyybgqegmuvsn/PlainNote_Prefix.pch.d36"C3F87034-1A5B-460E-A97E-AA142853D021-
+
+CTouch /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app
+s401468863.781624
+e401468863.792293
+r1
+xTouch
+x/Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.appfc36c8bfededb741^f5bccbbfededb741^---0#0#0#--679"Touch build/Release-iphonesimulator/PlainNote.app    cd /Users/user/cucumber-appium/PlainNote    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194/bin:/Users/user/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/user/bin"    /usr/bin/touch -c /Users/user/cucumber-appium/PlainNote/build/Release-iphonesimulator/PlainNote.app36"D7B70844-16EA-4004-AB15-CAA95C27DD77-
+
