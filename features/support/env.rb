@@ -49,4 +49,4 @@ def sauce
   @sauce ||= Selenium::WebDriver.for(:remote, :desired_capabilities => sauce_capabilities, :url => sauce_url)
 end
 
-
+After { @sauce.quit }
