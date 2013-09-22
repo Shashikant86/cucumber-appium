@@ -23,6 +23,8 @@ def sauce_capabilities
     #'browserName' => 'iPhone',
     'platform' => 'OS X 10.8',
     'version' => '6.0',
+    'name' => 'Running PlainNote wit Cucumber and Appium', 
+    'passed' => 'true'
 
   }
 end
@@ -43,10 +45,8 @@ def selenium
   @driver ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities, :url => server_url)
 end
 
-After { @driver.quit }
-
 def sauce
-  @sauce ||= Selenium::WebDriver.for(:remote, :desired_capabilities => sauce_capabilities, :url => sauce_url, :name => "Running PlainNote with Cucumber and Appium", :passed => "true")
+  @sauce ||= Selenium::WebDriver.for(:remote, :desired_capabilities => sauce_capabilities, :url => sauce_url)
 end
 
-After { @sauce.quit }
+
