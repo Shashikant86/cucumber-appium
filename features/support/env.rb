@@ -14,7 +14,7 @@ end
 
 def sauce_capabilities
   {
- 
+
     'app' => 'sauce-storage:PlainNote.zip',
     'device' => 'iPhone Simulator',
     'username' => 'Shashikant86',
@@ -23,12 +23,12 @@ def sauce_capabilities
     #'browserName' => 'iPhone',
     'platform' => 'OS X 10.8',
     'version' => '6.0',
-    'name' => 'Running PlainNote wit Cucumber and Appium', 
+    'name' => 'Running PlainNote wit Cucumber and Appium',
     'passed' => 'true'
 
   }
 end
- 
+
 def absolute_app_path
   File.join(File.dirname(__FILE__), APP_PATH)
 end
@@ -40,7 +40,7 @@ end
 def sauce_url
   "http://Shashikant86:a0e37e25-e2f3-4cba-95d3-936007d8bfc3@ondemand.saucelabs.com:80/wd/hub"
 end
- 
+
 def selenium
   @driver ||= Selenium::WebDriver.for(:remote, :desired_capabilities => capabilities, :url => server_url)
 end
@@ -49,4 +49,4 @@ def sauce
   @sauce ||= Selenium::WebDriver.for(:remote, :desired_capabilities => sauce_capabilities, :url => sauce_url)
 end
 
-After { @sauce.quit }
+# After { @sauce.quit }
