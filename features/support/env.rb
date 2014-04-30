@@ -17,8 +17,8 @@ def sauce_capabilities
 
     'app' => 'sauce-storage:PlainNote.zip',
     'device' => 'iPhone Simulator',
-    'username' => 'Shashikant86',
-    'access-key' => 'a0e37e25-e2f3-4cba-95d3-936007d8bfc3',
+    'username' => 'USERNAME',
+    'access-key' => 'API_KEY',
     #'os' => 'iOS'
     #'browserName' => 'iPhone',
     'platform' => 'OS X 10.8',
@@ -38,7 +38,7 @@ def server_url
 end
 
 def sauce_url
-  "http://Shashikant86:a0e37e25-e2f3-4cba-95d3-936007d8bfc3@ondemand.saucelabs.com:80/wd/hub"
+  "http://USERNAME:API_KEY@ondemand.saucelabs.com:80/wd/hub"
 end
 
 def selenium
