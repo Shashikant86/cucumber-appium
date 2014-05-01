@@ -2,7 +2,8 @@ require 'rspec/expectations'
 require 'selenium-webdriver'
 
 APP_PATH = '/../../PlainNote/build/Release-iphonesimulator/PlainNote.app'
-
+USERNAME = ''
+API_KEY = ''
 def capabilities
   {
     'browserName' => 'iOS',
@@ -17,8 +18,8 @@ def sauce_capabilities
 
     'app' => 'sauce-storage:PlainNote.zip',
     'device' => 'iPhone Simulator',
-    'username' => 'USERNAME',
-    'access-key' => 'API_KEY',
+    'username' => USERNAME,
+    'access-key' => API_KEY,
     #'os' => 'iOS'
     #'browserName' => 'iPhone',
     'platform' => 'OS X 10.8',
@@ -38,7 +39,7 @@ def server_url
 end
 
 def sauce_url
-  "http://USERNAME:API_KEY@ondemand.saucelabs.com:80/wd/hub"
+  "http://#{USERNAME}:#{API_KEY}@ondemand.saucelabs.com:80/wd/hub"
 end
 
 def selenium
