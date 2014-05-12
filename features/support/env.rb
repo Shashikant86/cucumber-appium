@@ -3,7 +3,7 @@ require 'selenium-webdriver'
 
 APP_PATH = '/../../PlainNote/build/Release-iphonesimulator/PlainNote.app'
 USERNAME = 'ShashikantJ'
-API_KEY = '821f8133-586a-4015-aac5-36ba77f17029'
+API_KEY = ''
 def capabilities
   {
     'browserName' => 'iOS',
