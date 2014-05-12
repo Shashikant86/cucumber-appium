@@ -2,8 +2,8 @@ require 'rspec/expectations'
 require 'selenium-webdriver'
 
 APP_PATH = '/../../PlainNote/build/Release-iphonesimulator/PlainNote.app'
-USERNAME = ''
-API_KEY = ''
+USERNAME = 'ShashikantJ'
+API_KEY = '821f8133-586a-4015-aac5-36ba77f17029'
 def capabilities
   {
     'browserName' => 'iOS',
@@ -50,4 +50,4 @@ def sauce
   @sauce ||= Selenium::WebDriver.for(:remote, :desired_capabilities => sauce_capabilities, :url => sauce_url)
 end
 
-# After { @sauce.quit }
+#After { @sauce.quit }
